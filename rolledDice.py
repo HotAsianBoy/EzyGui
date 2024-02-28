@@ -9,6 +9,6 @@ for roll in range(2):
     die2 = random.randint(1, 6)
     easygui.msgbox(f"{player}, you rolled: \n\n {die1}, and {die2}"
                    f"Total: {die1 + die2}", f"Player {player}")
-    /
+
 
 
