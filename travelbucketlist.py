@@ -3,7 +3,7 @@ import easygui
 while True:
     places_to_visit = easygui.enterbox("Please enter the five places you would most "
                                        "like to visit!\nSeperate each"
-                                       "place with a comma:",
+                                       "place with a comma:  ",
                                        "Enter favourite places:")
     places = places_to_visit.split(",")
     if len(places) != 5:
